@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
         <div className="flex items-center">
           <div className="mr-8">
             <Link href={'/'}>
-              <img src="logo.png" alt="Pizza West Logo" width="80" />
+              <Image src="/logo.png" alt="Pizza West Logo" width="80" height="88" />
             </Link>
           </div>
           <Link href="/menu">Menu</Link>

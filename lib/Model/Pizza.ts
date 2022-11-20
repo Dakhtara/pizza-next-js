@@ -6,4 +6,5 @@ export type Pizza = {
     Price: number;
     slug: string;
     Image: Array<Image>;
+    'Name (from Attributes)'?: Array<string>;
 }
