@@ -8,10 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        custGrey: "#F2F2F2",
-
+        'cust-grey': "#F2F2F2",
+        'cust-orange': "#9E4E37",
+        'body': "#E4E2D6",
+        'header': "#EAEAE6"
+      },
+      fontFamily: {
+        display: "Alfa Slab One, cursive",
+        body: "Comfortaa, cursive"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
