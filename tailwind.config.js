@@ -11,7 +11,8 @@ module.exports = {
         'cust-grey': "#F2F2F2",
         'cust-orange': "#9E4E37",
         'body': "#E4E2D6",
-        'header': "#EAEAE6"
+        'header': "#EAEAE6",
+        "footer": "#585547",
       },
       fontFamily: {
         display: "Alfa Slab One, cursive",

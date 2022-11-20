@@ -18,11 +18,8 @@ export default function Home(props: {pizzasProps: Array<Pizza>}) {
     const [pizzas, setPizzas] = useState<Array<Pizza>>(props.pizzasProps)
 
   return (
-      <div className={"bg-body"}>
+      <div className={"bg-body pt-8"}>
           <div className={"container mx-auto"}>
-            <div className="mb-6">
-                <h1>Pizza West</h1>
-            </div>
             <HeroHome />
             <h2 className="font-display text-3xl pt-10 mb-6">Nos pizzas du moment</h2>
             <div className="grid grid-cols-4 gap-16">
