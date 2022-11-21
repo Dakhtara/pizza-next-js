@@ -11,8 +11,8 @@ export default function HeroHome() {
             livraison sur Les Sables d&apos;Olonne et sur Olonne sur mer.
           </p>
         </div>
-        <Image src="/hero_1.png" alt="Pizza" />
-        <Image src="/hero_2.png" alt="Pizza" />
+        <Image src="/hero_1.png" width="255" height="478" alt="Pizza" />
+        <Image src="/hero_2.png" width="409"   height="478" alt="Pizza" />
       </div>
     </div>
   )
