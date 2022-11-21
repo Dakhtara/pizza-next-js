@@ -1,6 +1,7 @@
 import { Image } from "./Image";
 
 export type Pizza = {
+    id: string;
     Name: string;
     Description: string;
     Price: number;

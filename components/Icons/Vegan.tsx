@@ -8,9 +8,9 @@ export default function Vegan({className, width = 24, height= 24}: {className?: 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="M2 2c4.056 3.007 9.232 9.337 10 20 .897-6.818 1.5-9.5 4-14"></path>
       <path d="M20.375 6.533A9.953 9.953 0 0 1 22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2c2.003 0 3.869.589 5.433 1.603"></path>

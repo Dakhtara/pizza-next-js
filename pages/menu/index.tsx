@@ -6,7 +6,6 @@ export async function getServerSideProps() {
     const pizzaRepo = new PizzaRepository();
     let pizzasProps = await pizzaRepo.findAll();
     // @ts-ignore
-    pizzasProps = pizzasProps.map(pizza => pizza._rawJson.fields)
     return {
         props: {pizzasProps}, // will be passed to the page component as props
     }

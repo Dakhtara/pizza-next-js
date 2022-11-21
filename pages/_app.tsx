@@ -3,10 +3,22 @@ import type { AppProps } from 'next/app'
 // @ts-ignore
 import Airtable from 'airtable'
 import Layout from '../components/Layout'
+import {Comfortaa, Alfa_Slab_One} from '@next/font/google';
+
+const comfortaa = Comfortaa();
+const alfaSlabOne = Alfa_Slab_One({weight: "400", subsets: ["latin"]});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
   <Layout>
+    <style jsx global>{`
+        .font-body {
+          font-family: ${comfortaa.style.fontFamily};
+        }
+        .font-display {
+            font-family: ${alfaSlabOne.style.fontFamily};
+        }
+      `}</style>
       <Component {...pageProps} />
   </Layout>
   )

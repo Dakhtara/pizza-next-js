@@ -13,10 +13,6 @@ module.exports = {
         'body': "#E4E2D6",
         'header': "#EAEAE6",
         "footer": "#585547",
-      },
-      fontFamily: {
-        display: "Alfa Slab One, cursive",
-        body: "Comfortaa, cursive"
       }
     },
   },
