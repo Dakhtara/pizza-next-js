@@ -13,7 +13,7 @@ export default function PizzaCard({pizza}: {pizza: Pizza})
 
     return (
         <div className="font-body flex flex-col items-center gap-y-4">
-            <Image src={imageSrc.url} alt={"Pizza " + pizza.Name} width={imageSrc.width} height={imageSrc.height} className="max-h-32" loading="lazy" />
+            <Image src={imageSrc.url} alt={"Pizza " + pizza.Name} width={imageSrc.width} height={115} className="max-h-32" loading="lazy" />
             
             <Link href={`/pizzas/${pizza.id}`} className="hover:underline">
                 <span className="flex gap-2">{pizza.Name} {hasAttributeVegan && <span title="Végétarienne"><Vegan className='stroke-green-600' width={20} height={20} /></span>}</span>

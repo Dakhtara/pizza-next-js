@@ -13,7 +13,7 @@ export default function Header() {
           </div>
           <Link href="/menu">Menu</Link>
         </div>
-        <div className="flex gap-5">
+        <div className="hidden md:flex gap-5">
           <span>Boutique Olonne sur Mer</span>
           <span>Se connecter</span>
         </div>

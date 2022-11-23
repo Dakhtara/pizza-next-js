@@ -15,7 +15,7 @@ export default function Menu({pizzasProps}: {pizzasProps: Array<Pizza>}) {
   return (
     <div className="container mx-auto">
       <h1 className="font-display text-3xl pt-10 mb-6">Menu</h1>
-        <div className="grid grid-cols-4 gap-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">
             {pizzasProps.map((pizza, i) => {
                 return <PizzaCard key={i} pizza={pizza} />
             })}

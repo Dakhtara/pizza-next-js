@@ -23,7 +23,7 @@ export default function Home(props: { pizzasProps: Array<Pizza> }) {
         <h2 className="font-display text-3xl pt-10 mb-6">
           Nos pizzas du moment
         </h2>
-        <div className="grid grid-cols-4 gap-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">
           {pizzas.map((pizza, i) => {
             return <PizzaCard key={i} pizza={pizza} />
           })}
